@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saran V | Data Analyst Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #0f172a; color: white; scroll-behavior: smooth; }
+        .glass {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1.5rem;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="font-sans">
+
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+        <h1 class="text-2xl font-bold gradient-text">SARAN.V</h1>
+        <div class="space-x-6">
+            <a href="#projects" class="hover:text-sky-400 transition">Projects</a>
+            <a href="#contact" class="hover:text-sky-400 transition">Contact</a>
+        </div>
+    </nav>
+
+    <section class="h-screen flex flex-col justify-center items-center text-center px-4">
+        <div data-aos="fade-up">
+            <h2 class="text-5xl md:text-7xl font-extrabold mb-4">Data <span class="gradient-text">Analyst</span></h2>
+            <p class="text-gray-400 max-w-xl text-lg">Turning raw data into actionable insights. Expert in Python, SQL, and Visualization.</p>
+            <div class="mt-8 space-x-4">
+                <a href="#projects" class="bg-sky-500 hover:bg-sky-600 px-8 py-3 rounded-full font-bold transition duration-300">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="max-w-6xl mx-auto py-20 px-4">
+        <h3 class="text-3xl font-bold mb-12 text-center" data-aos="fade-right">Featured Projects</h3>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="glass p-8 hover:scale-105 transition duration-500" data-aos="zoom-in">
+                <div class="text-sky-400 font-mono mb-2">Python • SQL</div>
+                <h4 class="text-2xl font-bold mb-3">Upcoming Project #1</h4>
+                <p class="text-gray-400 mb-6">Description of your future data cleaning or analysis project goes here.</p>
+                <a href="#" class="text-sky-400 font-semibold hover:underline">Case Study →</a>
+            </div>
+            <div class="glass p-8 hover:scale-105 transition duration-500" data-aos="zoom-in" data-aos-delay="200">
+                <div class="text-purple-400 font-mono mb-2">Power BI • Excel</div>
+                <h4 class="text-2xl font-bold mb-3">Upcoming Project #2</h4>
+                <p class="text-gray-400 mb-6">Visualizing sales trends and providing business recommendations.</p>
+                <a href="#" class="text-sky-400 font-semibold hover:underline">View Dashboard →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="max-w-4xl mx-auto py-20 px-4 text-center">
+        <div class="glass p-10" data-aos="fade-up">
+            <h3 class="text-3xl font-bold mb-6">Let's Connect</h3>
+            <p class="text-gray-400 mb-8">Ready to bring data-driven value to your team.</p>
+            <div class="space-y-2">
+                <p class="text-xl">📧 saran3005v@gmail.com</p>
+                <p class="text-xl">📞 +91 7010471322</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-10 text-center text-gray-600">
+        © 2026 Saran V. Built for Data Excellence.
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
+</body>
+</html>
